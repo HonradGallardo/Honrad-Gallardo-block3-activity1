@@ -10,26 +10,15 @@
         android:id="@+id/editTextTextEmailAddress3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
         android:ems="10"
-        android:layout_marginTop="150dp"
-        android:hint="Username:"
+        android:hint="New Password:"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_marginTop="30dp"
-        android:hint="Password:"
-        android:inputType="textEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="100dp" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -37,12 +26,12 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Confirm password:"
-        android:layout_marginTop="30dp"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress4"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="343dp" />
 
     <Button
         android:id="@+id/button17"
@@ -53,6 +42,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.111" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Password"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
